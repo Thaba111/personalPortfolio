@@ -10,9 +10,12 @@ header {
     text-align: center;
     padding: 20px;
 }
-nav {
-    background-color: #555;
-    color: white;
-    text-align: center;
-    padding: 10px;
+#about {
+    background-color: #fff;
+}
+#achievements,
+#Extracurricular,
+#CurreentReads,
+#contact {
+    background-color: #f9f9f9;
 }
