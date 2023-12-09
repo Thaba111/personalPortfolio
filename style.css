@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -56,36 +56,39 @@ a {
 }
 
 a:hover {
-    color: #555;
+    color: #0c0505;
 }
 section {
     margin: 0 auto; /* Center the sections horizontally */
     max-width: 800px; /* Adjust the maximum width as needed */
 }
 .email-link {
-    color: #333; /* Initial color */
+    color: #7e6060; /* Initial color */
     text-decoration: none; /* Remove underline */
     transition: color 0.3s; /* Smooth color transition on hover */
 }
 
 .email-link:hover {
-    color: #555; /* Color on hover */
+    color: #7e6060; /* Color on hover */
 }
 
 
 #backToTopBtn {
-    display:; /* show button by default */
-    position: fixed;
+    display: none; /* Hide the button by default */
+    position:fixed;
     bottom: 20px;
     right: 20px;
-    background-color: rgb(0, 119, 128);
+    background-color: #7f9ca3;
     color: #fff;
     border: none;
-    border-radius: 1px;
-    padding: 5px 5px;
+    border-radius: 5px;
+    padding: 10px 15px;
     cursor: pointer;
 }
 
 #backToTopBtn:hover {
-    background-color: #b30054;
+    background-color: #050e18;
+}
+
+
 
