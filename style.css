@@ -71,3 +71,21 @@ section {
 .email-link:hover {
     color: #555; /* Color on hover */
 }
+
+
+#backToTopBtn {
+    display:; /* show button by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(0, 119, 128);
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+#backToTopBtn:hover {
+    background-color: #b30054;
+
