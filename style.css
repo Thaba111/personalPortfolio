@@ -89,6 +89,13 @@ section {
 #backToTopBtn:hover {
     background-color: #050e18;
 }
+@media only screen and (max-width: 600px) {
+    /* Styles for screens with a width of 600 pixels or less */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
