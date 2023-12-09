@@ -62,3 +62,12 @@ section {
     margin: 0 auto; /* Center the sections horizontally */
     max-width: 800px; /* Adjust the maximum width as needed */
 }
+.email-link {
+    color: #333; /* Initial color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.email-link:hover {
+    color: #555; /* Color on hover */
+}
