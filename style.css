@@ -12,13 +12,13 @@ header {
     padding: 20px;
     
 }
-#about {
+#about,
+#Extracurricular,
+#contact {
     background-color: #fff;
 }
 #achievements,
-#Extracurricular,
-#CurreentReads,
-#contact {
+#CurreentReads {
     background-color: #f9f9f9;
 }
 nav {
