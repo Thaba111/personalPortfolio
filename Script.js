@@ -1,3 +1,7 @@
+const h2 = document.createElement("h2");
+h2.textContent = "This content added by JavaScript";
+document.querySelector("body").appendChild(h2);
+
 // Show/hide the "Back to Top" button based on scroll position
 window.onscroll = function() {
     scrollFunction();
